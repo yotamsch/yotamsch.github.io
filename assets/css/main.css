@@ -272,6 +272,15 @@ hr {
   margin: 2rem;
 }
 
+.footer .footer-text {
+  display: block;
+  margin-top:3px;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: .9rem;
+}
+
 .footer a {
   color: #999;
   padding: 10px;
