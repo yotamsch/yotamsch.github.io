@@ -1,0 +1,3 @@
+# local created site ignore
+_site
+Gemfile.lock
