@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About Me
+title: About
 ---
 
 Hello! My name is [Yotam]({{ site.baseurl }}) and I'm a software engineer. After thinking of making one for a long time I have decided to finally create my own blog. Here I plan on posting just about anything I am interested in. Feel free to look around, you might find something that's worth a read. Check out the [Tags Page]( {{ site.baseurl }}/menu/tags) and [Archive]({{ site.baseurl }}/menu/archive) for more. Hope you enjoy! <i class="fa fa-smile-o" aria-hidden="true"></i>
-
+ 
 ### Things I do for fun
 <div class="about-list">
     <span class="list-icon"><i class="fa fa-map" aria-hidden="true"></i></span>
