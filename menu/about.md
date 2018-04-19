@@ -1,18 +1,28 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About Me
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Hello! My name is [Yotam]({{ site.baseurl }}) and I'm a software engineer. After thinking of making one for a long time I have decided to finally create my own blog. Here I plan on posting just about anything I am interested in. Feel free to look around, you might find something that's worth a read. Check out the [Tags Page]( {{ site.baseurl }}/menu/tags) and [Archive]({{ site.baseurl }}/menu/archive) for more. Hope you enjoy! <i class="fa fa-smile-o" aria-hidden="true"></i>
 
-### Getting Started
+### Things I do for fun
+<div class="about-list">
+    <span class="list-icon"><i class="fa fa-map" aria-hidden="true"></i></span>
+    <p><strong>Traveling:</strong> Traveling is a passion of mine. Every chance I get - I travel! I've been to countries like: Japan, South Korea, Canada, New-Zealand, Germany and more. There's a good chance there will be some traveling posts here as well</p>
+</div>
+<div class="about-list">
+    <span class="list-icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+    <p><strong>Coding:</strong> As you've probably guessed, I love programming. I've been coding for many years, ever since I was very young. On top of that I enjoy discovering new tech and diving into it.</p>
+</div>
+<div class="about-list">
+    <span class="list-icon"><i class="fa fa-tv" aria-hidden="true"></i></span>
+    <p><strong>Movies &amp; TV:</strong> Movies, tv and media in general is something I love and also study. Horror movies are my guilty pleasure but I do love them all. I watch a lot of Japanese animation as well.</p>
+</div>
+<div class="about-list">
+    <span class="list-icon"><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+    <p><strong>Games:</strong> Indie, puzzles, fighting, shooters... I play them all! I'm very interested in video game design, and hope to be a game developer sometime in the future!</p>
+</div>
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
-
-### Example Content
-
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
-
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+<p class="about-contact">
+If you have any question, feel free to contact me <i class="fa fa-commenting-o" aria-hidden="true"></i>
+</p>

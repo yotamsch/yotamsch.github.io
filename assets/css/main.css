@@ -5,12 +5,15 @@
     Masthead
     Thumbnail
     Post
+    Tags
     Pagination
     Footer
     Menu
     Code
     Tables
     Social media icons
+    -- ADDITIONAL PAGE SPECIFIC --
+    About
 */
 
 /*
@@ -142,6 +145,10 @@ hr {
   margin-bottom: 4rem;
 }
 
+.post-container > h1:first-of-type {
+  margin-bottom: .5rem;
+}
+
 .posts {
   margin-bottom: 5rem;
   padding: 0px;
@@ -154,7 +161,7 @@ hr {
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size:0.8rem;
+  font-size:1.2rem;
 }
 
 @media (max-width: 30rem) {
@@ -164,16 +171,64 @@ hr {
 }
 
 .related {
-  padding-bottom: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
 }
 
 .related-posts {
   padding-left: 0px;
   list-style: none;
+  margin-left: .5rem;
+}
+
+.related-posts h3 {
+  margin: .4rem 0;
 }
 
 .related-posts a {
   text-decoration: none;
+  color: #555;
+}
+
+/*
+  Tags
+*/
+
+.tags {
+  margin-bottom: 2.5rem;
+  padding: 0px;
+  list-style: none;
+}
+
+.post-tags {
+  display: inline-block;
+}
+
+.post-tags .tag-heading {
+  color: #aaa;
+}
+
+.post-tags ul {
+  display: inline;
+  padding-left: 0px;
+}
+
+.post-tags ul li.tag-item {
+  display: inline-block;
+}
+
+.post-tags ul li.tag-item a {
+  background-color: #f3f3f3;
+  padding: 1px 6px 3px 6px;;
+  color: #666;
+  border-radius: 3px;
+  text-decoration: inherit;
+}
+
+.post-tags ul li.tag-item a:hover {
+  color: #0073a4;
+  background-color: #edfaff;
 }
 
 /*
@@ -280,17 +335,17 @@ code {
   border-radius: 3px;
 }
 pre {
-  display: block;
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
+  background-color: #f5f5f5;
+  display: block;
   white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: keep-all;
   word-wrap: break-word;
-  background-color: #f5f5f5;
 }
 pre code {
   padding: 0;
@@ -498,4 +553,32 @@ th, td {
 
 .fa-rss-square:hover {
 	color: #ff6600;
+}
+
+/*-- ADDITIONAL PAGE SPECIFIC --*/
+
+/*
+  About
+*/
+
+.about-list {
+  position: relative;
+}
+
+.about-list span {
+  position: absolute;
+  left: 10px;;
+}
+
+.about-list p {
+  margin-left: 45px;
+}
+.about-list p strong {
+  padding-right: 10px;
+}
+
+.about-contact {
+  font-size: 1.5rem;
+  text-align: center;
+
 }
