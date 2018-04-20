@@ -37,7 +37,7 @@ layout: default
   <span class="tag-heading">Tags:</span>
   <ul>
     {% for tag in page.tags %}
-    <li class="tag-item"><a href="{{ site.baseurl }}/menu/tags/#tag-{{ tag | downcase | replace:" ","-" }}">{{ tag }}</a></li>
+    <li class="tag-item"><a href="{{ site.baseurl }}/menu/tags#tag-{{ tag | downcase | replace:" ","-" }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
 </div>
