@@ -64,6 +64,8 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 blockquote {
@@ -147,6 +149,14 @@ hr {
 
 .post-container > h1:first-of-type {
   margin-bottom: .5rem;
+}
+
+.post-content p a {
+  color: #00aced;
+}
+
+.post-content p a:hover {
+  color: #0073a4;
 }
 
 hr.small-line {
@@ -417,11 +427,11 @@ table {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #acacac;
 }
 
 th, td {
-  padding: 15px;
+  padding: 5px 10px;
   text-align: left;
 }
 
