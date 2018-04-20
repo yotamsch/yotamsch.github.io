@@ -10,7 +10,17 @@ image: "/2018-4-20/post-image.png"
 [GNU Octave](https://www.gnu.org/software/octave/) is a free tool aimed at enabling fast and easy prototyping of mathematic applications. It is a good replacement for the expansive MatLab which is why I chose it. In this little tutorial I will guide you through installing it over Linux and help you get familiar with the GUI interface and its Shell tools. 
 
 ## Differences with MatLab
-Mostly Octave was build with MatLab comptability in mind. But some Octave only syntax exists. for example, MatLab accepts only single quates (`'<string>'`) while Octave accepts both single and double quates (`"<string>"`). It should be possible to run Octave in a MatLab comptability mode with the `--traditional` flag. For more information on the differences check out [this wiki page](https://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB).
+Mostly Octave was build with MatLab comptability in mind. But some Octave only syntax exists. for example, MatLab accepts only single quates (`'<string>'`) while Octave accepts both single and double quates (`"<string>"`). For more information on the differences check out [this wiki page](https://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB).
+
+It's possible to run Octave in a MatLab comptability mode. This is done by using the `--traditional` or `--braindead` flags when calling octave, for example:
+```bash
+octave --braindead # opens the GUI in comptability mode
+octave-cli --traditional # opens the command line in comptability moode
+```
+**Note:** You might want to edit the `~/.octaverc` file to display MatLab comptability warnings. This is done by executing:
+```bash
+echo "warning(\"on\",\"Octave:language-extension\");" >> ~/.octaverc
+```
 
 ## The set-up
 I'm using a [Lubuntu](https://lubuntu.net/) 17.10 (64 Bit) virtual machine, installed with [VirtualBox](https://www.virtualbox.org/). Lubuntu is one of the smaller distro's based on Ubuntu. Therefore it is also compatible with `sudo apt-get` and all the Ubuntu repositories. Out of the box there are still some things you must install before getting Octave. I recommend running the following set of commands:
