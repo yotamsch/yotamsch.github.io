@@ -43,13 +43,13 @@ clc # clear the screen (like 'clear')
 ### Math operations
 Same as any other IDE, but also supports element-wise operations.
 
-| Oper.   | Math            | Description                     |
-| ------- | --------------- | ------------------------------- |
-| +       | $$x + y$$       | Regular plus operator           |
-| -       | $$x - y$$       | Regular minus operator          |
-| *       | $$x \cdot y$$   | Regular multiply operator       |
-| \       | $$\frac{x}{y}$$ | Regular right-devision operator |
-| ^ or ** | $$x^y$$         | Regular exponent operator       |
+| Oper.           | Math            | Description             |
+| --------------- | --------------- | ----------------------- |
+| x + y           | $$x + y$$       | Plus operator           |
+| x - y           | $$x - y$$       | Minus operator          |
+| x * y           | $$x \cdot y$$   | Multiply operator       |
+| x \ y           | $$\frac{x}{y}$$ | Right-devision operator |
+| x^y *or* x**y | $$x^y$$         | Exponent operator       |
 
 All of the above also exist in an element-wise action. by using the `.` (dot) prefix. For example `x .+ y` is the element-wise `+`.
 
