@@ -23,7 +23,7 @@ echo "warning(\"on\",\"Octave:language-extension\");" >> ~/.octaverc
 ```
 
 ## The set-up
-I'm using a [Lubuntu](https://lubuntu.net/) 17.10 (64 Bit) virtual machine, installed with [VirtualBox](https://www.virtualbox.org/). Lubuntu is one of the smaller distro's based on Ubuntu. Therefore it is also compatible with `sudo apt-get` and all the Ubuntu repositories. Out of the box there are still some things you must install before getting Octave. I recommend running the following set of commands:
+I'm using a [Lubuntu](https://lubuntu.net/) 17.10 (64 Bit) virtual machine, installed with [VirtualBox](https://www.virtualbox.org/). Lubuntu is one of the smaller distro's based on Ubuntu. Therefore it is also compatible with `sudo apt-get` and all the Ubuntu repositories. Out of the box there are still some things you should install before getting started. I recommend running the following set of commands:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
@@ -31,7 +31,7 @@ sudo apt-get install gcc make build-essential
 ```
 And remember to install the VirtualBox Guest additions for better integration.
 
-__Note:__ If you are using a non American locale as me (can check with the shell command `locale`), it is good practice to declare it UTF-8. In my case I had to run the command:
+__Note:__ If you are using a non Latin based locale as me (can check with the shell command `locale`), it is good practice to declare it UTF-8. In my case I had to run the command:
 ```bash
 sudo update-locale LANG=en_IL.UTF-8
 ```
