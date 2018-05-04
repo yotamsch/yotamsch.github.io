@@ -54,7 +54,7 @@ Follow the on screen instructions and execute the install, it shouldn't take lon
 umake ide eclipse
 ```
 
-You will be promped to choose an install location. For comfort I recommend installing it in `~/.local/share/eclipse`. Using `ubuntu-make` will install all needed dependencies and also handle a start menu shortcut for you. What a treat! If after installation you don't see any shortcut in the start menu, just use the following command to copy the file into the needed directory:
+You will be promped to choose an install location. For comfort I recommend installing it in `/home/YOUR-USERNAME/.local/share/eclipse`. Using `ubuntu-make` will install all needed dependencies and also handle a start menu shortcut for you. What a treat! If after installation you don't see any shortcut in the start menu, just use the following command to copy the file into the needed directory:
 
 ```bash
 sudo cp ~/.local/share/applications/eclipse-java.desktop /usr/share/applications/.
